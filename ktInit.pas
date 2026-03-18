@@ -76,7 +76,7 @@ begin
 
 
   loadSymbol.LoadData(nil);
-  MainForm.MenuItem16Click(nil);
+  MainForm.FinaMainSymbol(nil);
 
   //LoadIndicatorsAndHistory(mainProgramFolder+'/data/RM409.TXT');
   //SingleSystem.SymbolsCombo.Items.Add('RM409');

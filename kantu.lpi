@@ -45,13 +45,12 @@
         <PackageName Value="LCL"/>
       </Item3>
     </RequiredPackages>
-    <Units Count="49">
+    <Units Count="51">
       <Unit0>
         <Filename Value="kantu.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="11"/>
-        <CursorPos X="39" Y="85"/>
+        <CursorPos X="40" Y="37"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -152,8 +151,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="kantu_loadSymbol"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="14"/>
-        <CursorPos X="5" Y="32"/>
+        <CursorPos X="3" Y="18"/>
         <UsageCount Value="253"/>
         <Loaded Value="True"/>
       </Unit9>
@@ -248,7 +246,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="kantu_singleSystem"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="26" Y="22"/>
+        <TopLine Value="34"/>
+        <CursorPos Y="59"/>
         <UsageCount Value="324"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -455,12 +454,28 @@
         <CursorPos X="63" Y="8068"/>
         <UsageCount Value="10"/>
       </Unit48>
+      <Unit49>
+        <Filename Value="ktChart.pas"/>
+        <HasResources Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="12"/>
+        <CursorPos X="20" Y="25"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="ktchart.lfm"/>
+        <EditorIndex Value="13"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit50>
     </Units>
     <OtherDefines Count="2">
       <Define0 Value="UseOINormalCheckBox"/>
       <Define1 Value="DELPHI"/>
     </OtherDefines>
-    <JumpHistory Count="13" HistoryIndex="12">
+    <JumpHistory Count="18" HistoryIndex="17">
       <Position1>
         <Filename Value="kantu_main.pas"/>
         <Caret Line="23" Column="18" TopLine="6"/>
@@ -513,6 +528,24 @@
         <Filename Value="kantu.pas"/>
         <Caret Line="85" Column="39"/>
       </Position13>
+      <Position14>
+        <Filename Value="kantu.pas"/>
+        <Caret Line="29" Column="83"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ktchart.lfm"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ktChart.pas"/>
+        <Caret Line="2" Column="3"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ktchart.lfm"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ktChart.pas"/>
+        <Caret Line="12" Column="68" TopLine="3"/>
+      </Position18>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>

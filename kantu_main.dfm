@@ -69,8 +69,6 @@ object MainForm: TMainForm
     ShowHint = True
     TabOrder = 0
     OnClick = ResultsGridClick
-    ExplicitWidth = 585
-    ExplicitHeight = 344
   end
   object plStatus: TPanel
     Left = 0
@@ -80,7 +78,6 @@ object MainForm: TMainForm
     Align = alTop
     Caption = ' '
     TabOrder = 1
-    ExplicitWidth = 804
   end
   object Button3: TButton
     Left = 8
@@ -139,7 +136,7 @@ object MainForm: TMainForm
         Caption = 'Find Systems'
         object MenuItem16: TMenuItem
           Caption = 'Main Symbol'
-          OnClick = MenuItem16Click
+          OnClick = FinaMainSymbol
         end
         object MenuItem28: TMenuItem
           Caption = 'Multiple Symbol'

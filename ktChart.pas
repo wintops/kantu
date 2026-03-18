@@ -5,11 +5,13 @@ interface
 uses
 
 {$IFDEF DELPHI}
-
+    Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs,   Vcl.ExtCtrls, Vcl.ComCtrls,
+  Vcl.StdCtrls, Vcl.Menus,
 {$ELSE}
-  lclintf, FileUtil,
+  lclintf,   FileUtil, TAGraph, TASeries ,
 
-  ZMConnection, laz_synapse,
+ // ZMConnection, laz_synapse
 {$ENDIF}
 {$IFDEF TACHART}
   TAGraph, TASeries,
@@ -17,11 +19,9 @@ uses
 {$ENDIF}
 {$IFDEF TEECHART}
   VclTee.TeeGDIPlus, VclTee.Series,  VclTee.TeEngine,
-  VclTee.TeeProcs, VclTee.Chart,VCLTee.BubbleCh,
+  VclTee.TeeProcs, VclTee.Chart,VCLTee.BubbleCh;
 {$ENDIF}
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs,   Vcl.ExtCtrls, Vcl.ComCtrls,
-  Vcl.StdCtrls, Vcl.Menus;
+
 
 type
   TChartForm = class(TForm)
@@ -104,7 +104,11 @@ var
 
 implementation
 
+{$IFDEF DELPHI}
 {$R *.dfm}
+{$ELSE}
+{$R *.lfm}
+{$ENDIF}
 
 procedure TChartForm.FormCreate(Sender: TObject);
 begin

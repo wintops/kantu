@@ -27,6 +27,8 @@ object ChartForm: TChartForm
     ExplicitHeight = 1152
     object TabSheet3: TTabSheet
       Caption = 'Balance Curve'
+      ExplicitLeft = 0
+      ExplicitTop = 0
       ExplicitWidth = 884
       ExplicitHeight = 1124
       object Chart1: TChart
@@ -62,6 +64,8 @@ object ChartForm: TChartForm
     object TabSheet4: TTabSheet
       Caption = 'Mathematical Expectancy'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
       ExplicitWidth = 884
       ExplicitHeight = 1124
       object Chart2: TChart
@@ -100,6 +104,8 @@ object ChartForm: TChartForm
     object TabSheet2: TTabSheet
       Caption = 'Simulation Results'
       ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
       ExplicitWidth = 884
       ExplicitHeight = 1124
       object plChartOHLC: TPanel

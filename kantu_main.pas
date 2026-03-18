@@ -126,7 +126,7 @@ type
     procedure FormShow(Sender: TObject);
     procedure MenuItem11Click(Sender: TObject);
     procedure MenuItem13Click(Sender: TObject);
-    procedure MenuItem16Click(Sender: TObject);
+    procedure FinaMainSymbol(Sender: TObject);
     procedure MenuItem17Click(Sender: TObject);
     procedure MenuItem18Click(Sender: TObject);
     procedure MenuItem19Click(Sender: TObject);
@@ -958,7 +958,7 @@ begin
 {$ENDIF}
 end;
 
-procedure TMainForm.MenuItem16Click(Sender: TObject);
+procedure TMainForm.FinaMainSymbol(Sender: TObject);
 var
   i: Integer;
 begin
